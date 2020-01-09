@@ -28,185 +28,47 @@ header{
     text-decoration: none;
 }
 
-.dropdown-in-header{
-    border: none;
-    color: rgba(105, 105, 105, 0.8);
-}
 
-.search-bar{
-    margin-top: 22px;
-    text-align: center;
-}
-
-button{
-    background-color: white;
-    border: white;
-    border-radius: 5px;
-}
-
-.search-logo{
-    width: 28px;
-    height: 28px;
-}
-
-/* ----- BERITA TERKINI ----- */
-.berita-terkini{
-    margin-top: 40px;
-    border: solid rgba(105, 105, 105, 0.2) 0.5px;
-    margin-bottom: 50px;
-}
-
-.berita-terkini-first-row{
-    padding: 8px 0;
-}
-
-.berita-terkini-headline{
-    text-align: left;
-    font-weight: 900;
-    color: darkblue;
-    font-size: 0.85em;
-}
-
-.lihat-semua{
-    text-align: right;
-}
-
-.lihat-semua-link{
-    font-weight: 500;
-    font-size: 0.75em;
-    color: blue;
-}
-
-.lihat-semua-link:hover{
-    color: blue;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.elemen-list-berita-terkini{
-    border-top: solid rgba(105, 105, 105, 0.2) 0.5px;
-    padding: 10px 15px;
-    color: blue;
-    font-weight: 800;
-}
-
-.elemen-list-berita-terkini-kosong{
-    border-top: solid rgba(105, 105, 105, 0.2) 0.5px;
-}
-
-.tag-number{
-    background-color: red;
-    color: white;
-    font-size: 0.8em;
-    padding: 1px 10px;
-    border-radius: 10px;
-}
-
-.judul-berita-terkini{
-    font-size: 0.8em;
-    color: blue;
-}
-
-.judul-berita-terkini:hover{
-    color: blue;
-    text-decoration: none;
-}
-
-.while-loading{
-    text-align: center;
-    margin-top: 200px;
-}
-
-.loading-image{
-    width: 120px;
-    height: 120px;
-    animation: loading-image-spin infinite 1s linear;
-}
-
-@keyframes loading-image-spin{
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-}
-
-/* ----- KONTEN UTAMA ----- */
-.konten-utama{
-    margin-top: 40px;
-    margin-bottom: 10px;;
-}
-
-.each-content{
-    margin-bottom: 40px;
-    border: solid rgba(105, 105, 105, 0.2) 0.5px;
-}
-
-.content-image{
-    width: 100%;
-}
-
-.judul-konten-utama{
-    font-size: 1em;
-    font-weight: 750;
-    padding: 10px 10px;
-}
-
-.judul-konten-utama a{
-    color: black;
-}
-
-.judul-konten-utama a:hover{
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: 750;
-    color: black;
-}
-
-.isi-konten-utama{
-    font-size: 0.8em;
-    font-weight: 400;
-    padding: 0 10px;
-}
-
-.last-update{
-    font-size: 0.7em;
-    font-weight: 700;
-    opacity: 0.5;
-    padding: 0 10px;
-}
-
-.love-share-dislike{
-    background-color: rgba(105, 105, 105, 0.1);
-    padding: 5px 10px;
-}
-
-.love, .share, .dislike{
-    text-align: center;
-}
-
-.a-pack-of-icons{
-    width: 15px;
-    height: 15px;
-}
-
-/* ----- LOGIN SESSION ----- */
-.login-sheet{
-    border: 1px solid rgba(105, 105, 105, 0.2);
-    background-color: rgba(128, 128, 128, 0.2);
+/* ----- HOME ----- */
+.main-page{
     margin-top: 100px;
-    padding-bottom: 40px;
-}
-
-.login-session{
     text-align: center;
 }
 
-.h3-login{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-weight: 700;
+.h4-title{
+    margin-top: 15px;
+    margin-bottom: 15px
 }
 
-/* ----- PROFILE ----- */
-.profile-content{
+.image-content{
+    width: 100%;
+    border: solid rgba(105, 105, 105, 0.4) 1px;
+}
+
+.button-content{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: white;
+}
+
+/* ----- CATEGORY ----- */
+.category-content{
+    margin-top: 50px;
+}
+
+.category-show{
+    margin-bottom: 30px;
     text-align: center;
-    margin-top: 80px;
+    border: solid rgba(105, 105, 105, 0.4) 1px;
+}
+
+.image-category{
+    width: 100%;
+    border: solid rgba(105, 105, 105, 0.4) 1px;
+}
+
+.description-category{
+    text-align: left ;
+    padding: 15px;
+    margin-bottom: 20px;
 }

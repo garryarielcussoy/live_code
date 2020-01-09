@@ -7,7 +7,7 @@ import {BrowserRouter, Link} from 'react-router-dom'
 import {Provider, connect} from 'unistore/react'
 import {store} from './store'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
     <Provider store={store}>

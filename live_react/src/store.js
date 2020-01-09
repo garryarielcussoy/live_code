@@ -8,6 +8,11 @@ const urlHeadline = baseUrl + "everything?sources=cnn&apiKey=" + apiKey
 
 const inisialization = {
     isLogin: false,
+    category: '',
+    isLoading: '',
+    moviesCollection: [],
+    email: '',
+    username: ''
 }
 
 export const store = createStore(inisialization)
@@ -17,6 +22,6 @@ export const actions = store => (
     handleChange: (state, event) => {
         console.warn(event.target.value)
         store.setState({[event.target.name]: event.target.value})
-    },
+    }
 }
 )
